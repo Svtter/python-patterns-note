@@ -5,7 +5,8 @@
 设计模式虽然学过，但是总感觉学的时候不够认真，
 用起来不够灵活。
 
-- ![abstract_factory](abstract_factory.py)
+- [abstract_factory](./abstract_factory.py)
+- [borg](./borg.py)
 
 ## reference
 

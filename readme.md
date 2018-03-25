@@ -7,6 +7,7 @@
 
 - [abstract_factory](./abstract_factory.py)
 - [borg](./borg.py)
+- [builder](./builder.py)
 
 ## reference
 

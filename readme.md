@@ -8,6 +8,7 @@
 - [abstract_factory](./abstract_factory.py)
 - [borg](./borg.py)
 - [builder](./builder.py)
+- [factory_method](./factory_method.py)
 
 ## reference
 

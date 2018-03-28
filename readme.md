@@ -10,6 +10,7 @@
 - [builder](./builder.py)
 - [factory_method](./factory_method.py)
 - [lazy_evaluation](./lazy_evaluation.py)
+- [pool](./pool.py)
 
 ## reference
 

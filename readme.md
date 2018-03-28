@@ -9,6 +9,7 @@
 - [borg](./borg.py)
 - [builder](./builder.py)
 - [factory_method](./factory_method.py)
+- [lazy_evaluation](./lazy_evaluation.py)
 
 ## reference
 

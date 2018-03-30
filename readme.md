@@ -5,12 +5,14 @@
 设计模式虽然学过，但是总感觉学的时候不够认真，
 用起来不够灵活。
 
+- Creational Patterns:
 - [abstract_factory](./abstract_factory.py)
 - [borg](./borg.py)
 - [builder](./builder.py)
 - [factory_method](./factory_method.py)
 - [lazy_evaluation](./lazy_evaluation.py)
 - [pool](./pool.py)
+- [prototype](./prototype.py)
 
 ## reference
 

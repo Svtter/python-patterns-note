@@ -1,11 +1,16 @@
-# 一天一个设计模式，顺便说说感想
+==============================
+一天一个设计模式，顺便说说感想
+==============================
 
-> 写完这个再写个Java版本的。
+    写完这个再写个Java版本的。
+
 
 设计模式虽然学过，但是总感觉学的时候不够认真，
 用起来不够灵活。
 
-- Creational Patterns:
+Creational Patterns:
+^^^^^^^^^^^^^^^^^^^^
+
 - [abstract_factory](./abstract_factory.py)
 - [borg](./borg.py)
 - [builder](./builder.py)
@@ -14,6 +19,9 @@
 - [pool](./pool.py)
 - [prototype](./prototype.py)
 
-## reference
+
+
+reference
+---------
 
 - https://github.com/faif/python-patterns

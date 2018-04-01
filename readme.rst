@@ -12,18 +12,17 @@ Creational Patterns:
 ^^^^^^^^^^^^^^^^^^^^
 
 - `abstract_factory`_
-- [borg](./borg.py)
-- [builder](./builder.py)
-- [factory_method](./factory_method.py)
-- [lazy_evaluation](./lazy_evaluation.py)
-- [pool](./pool.py)
-- [prototype](./prototype.py)
+- `borg`_
+- `builder`_
+- `factory_method`_
+- `lazy_evaluation`_
+- `pool`_
+- `prototype`_
 
 Structural Patterns:
 ^^^^^^^^^^^^^^^^^^^^
 
-- [3-tier](./3-tier.py)
-
+- `3-tier`_
 
 
 reference
@@ -32,4 +31,11 @@ reference
 - https://github.com/faif/python-patterns
 
 
-.. relative_link: creational/abstract_factory.py
+.. _abstract_factory: creational/abstract_factory.py
+.. _borg: ./creational/borg.py
+.. _builder: ./creational/builder.py
+.. _factory_method: ./creational/factory_method.py
+.. _lazy_evaluation: ./creational/lazy_evaluation.py
+.. _pool: ./creational/pool.py
+.. _prototype: ./creational/prototype.py
+.. _3-tier: ./structural/3-tier.py

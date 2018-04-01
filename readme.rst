@@ -11,7 +11,7 @@
 Creational Patterns:
 ^^^^^^^^^^^^^^^^^^^^
 
-- [abstract_factory](./abstract_factory.py)
+- `abstract_factory`_
 - [borg](./borg.py)
 - [builder](./builder.py)
 - [factory_method](./factory_method.py)
@@ -30,3 +30,6 @@ reference
 ---------
 
 - https://github.com/faif/python-patterns
+
+
+.. relative_link: creational/abstract_factory.py

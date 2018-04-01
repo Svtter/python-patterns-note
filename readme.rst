@@ -19,6 +19,11 @@ Creational Patterns:
 - [pool](./pool.py)
 - [prototype](./prototype.py)
 
+Structural Patterns:
+^^^^^^^^^^^^^^^^^^^^
+
+- [3-tier](./3-tier.py)
+
 
 
 reference

@@ -6,7 +6,9 @@
 
 TODO: understand __get__ method.
 
-这个GET方法我没有看懂啊，这么炫技。。。
+PS: 这个GET方法我没有看懂啊，这么炫技。。。
+
+__get__方法的调用过程
 
 
 *TL;DR80
@@ -15,6 +17,8 @@ Separates presentation, application processing, and data management functions.
 
 class Data(object):
     """ Data Store Class """
+
+    test = ['test']
 
     products = {
         'milk': {'price': 1.50, 'quantity': 10},
@@ -66,6 +70,16 @@ class Ui(object):
                 product
             ))
 
+
+class Test(object):
+    data = Data()
+    def __init__(self):
+        import dis
+        def test():
+            print(self.data['products'])
+        dis.dis(test)
+
+
 def main():
     ui = Ui()
     ui.get_product_list()
@@ -73,6 +87,8 @@ def main():
     ui.get_production_information('eggs')
     ui.get_production_information('milk')
     ui.get_production_information('apepas')
+
+    test = Test()
 
 
 if __name__ == '__main__':

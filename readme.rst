@@ -22,7 +22,7 @@ Creational Patterns:
 Structural Patterns:
 ^^^^^^^^^^^^^^^^^^^^
 
-- \*`3-tier`_
+- `3-tier`_ TODO
 
 
 reference

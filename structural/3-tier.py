@@ -6,6 +6,8 @@
 
 TODO: understand __get__ method.
 
+这个GET方法我没有看懂啊，这么炫技。。。
+
 
 *TL;DR80
 Separates presentation, application processing, and data management functions.
@@ -67,5 +69,34 @@ class Ui(object):
 def main():
     ui = Ui()
     ui.get_product_list()
+    ui.get_production_information('cheese')
+    ui.get_production_information('eggs')
+    ui.get_production_information('milk')
+    ui.get_production_information('apepas')
 
-    
+
+if __name__ == '__main__':
+    main()
+
+
+"""
+OUTPUT:
+
+PRODUCT LIST:
+Fetching from Data Store
+eggs
+milk
+cheese
+
+Fetching from Data Store
+PRODUCTION INFORMATION:
+Name Cheese, Price: 2.00, Quantity: 10
+Fetching from Data Store
+PRODUCTION INFORMATION:
+Name Eggs, Price: 0.20, Quantity: 100
+Fetching from Data Store
+PRODUCTION INFORMATION:
+Name Milk, Price: 1.50, Quantity: 10
+Fetching from Data Store
+That product "apepas" does not exist in the records.
+"""

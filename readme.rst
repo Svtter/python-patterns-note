@@ -23,6 +23,8 @@ Structural Patterns:
 ^^^^^^^^^^^^^^^^^^^^
 
 - `3-tier`_ TODO
+- `adapter`_
+_ `bridge`_
 
 
 reference
@@ -39,3 +41,5 @@ reference
 .. _pool: ./creational/pool.py
 .. _prototype: ./creational/prototype.py
 .. _3-tier: ./structural/3-tier.py
+.. _adapter: ./structural/adapter.py
+.. _bridge: ./structural/bridge.py

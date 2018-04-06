@@ -24,7 +24,7 @@ Structural Patterns:
 
 - `3-tier`_ TODO
 - `adapter`_
-_ `bridge`_
+- `bridge`_
 
 
 reference

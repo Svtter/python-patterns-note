@@ -25,6 +25,7 @@ Structural Patterns:
 - `3-tier`_ TODO
 - `adapter`_
 - `bridge`_
+- `composite`_
 
 
 reference
@@ -43,3 +44,4 @@ reference
 .. _3-tier: ./structural/3-tier.py
 .. _adapter: ./structural/adapter.py
 .. _bridge: ./structural/bridge.py
+.. _`composite`: ./structural/composite.py

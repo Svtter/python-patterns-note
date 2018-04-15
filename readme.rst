@@ -26,7 +26,7 @@ Structural Patterns:
 - `adapter`_
 - `bridge`_
 - `composite`_
-
+- `facade`_
 
 reference
 ---------
@@ -45,3 +45,4 @@ reference
 .. _adapter: ./structural/adapter.py
 .. _bridge: ./structural/bridge.py
 .. _`composite`: ./structural/composite.py
+.. _`facade`: ./structural/facade.py
